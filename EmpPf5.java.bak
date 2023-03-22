@@ -1,0 +1,17 @@
+import java.io.*;
+class EmpPf5{
+	public static void main(String...arg)throws Exception {
+
+		InputStreamReader isr = new InputStreamReader(System.in);
+		BufferedReader br = new BufferedReader (isr);
+
+		System.out.println("Enter Basic Salary");
+		String str = br.readLine( );
+
+		double BasicSalary = Double.parseDouble ( str );
+
+		double pf = BasicSalary * 12 / 100;
+		System.out.println(pf);
+	}
+
+}

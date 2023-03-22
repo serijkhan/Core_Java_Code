@@ -1,0 +1,9 @@
+import java.util.*;
+class ArrayDemo3{
+	public static void main(String...args){
+		int arr [ ]={15,8,9,2,11,4,7};
+		Arrays.sort(arr);
+		System.out.println("Min Element: "+arr[ 0 ]);
+		System.out.println("Max Element:"+arr[ arr.length-1]);
+	}
+}

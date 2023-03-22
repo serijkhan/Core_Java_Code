@@ -1,0 +1,6 @@
+import java.io.*;
+class RoleFinder{
+	public static void main(String...args) throws Exception {
+		InputStreamReader isr= new InputStreamReader(ystem.in);
+{
+}

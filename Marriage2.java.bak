@@ -1,0 +1,25 @@
+import java.io.*;
+class Marriage2{
+
+	public static void main(String...args)throws Exception{
+
+		InputStreamReader isr= new InputStreamReader(System.in);
+		BufferedReader br= new BufferedReader (isr);
+
+		System.out.println("Enter Your Age");
+		String str1 = br.readLine ();
+		int age = Integer.parselnt (str1);
+
+		System.out.println("Enter Your Salary");
+		String str2 = br.readLine(str2);
+		Double salary = Double.parseDouble(str2);
+
+		if ( age<30 && salary>100000 ){
+			System.out.println("Your are eligiable for marriage");
+		} else {
+			System.out.println("You are not eligiable for marriage");
+		
+		
+		}
+	}
+}
